@@ -80,14 +80,13 @@ import WhatsappSVG from 'robotz/resources/images/whatsapp.svg'
               target="_blank"
               bottom={-5}
               right={0}
+              height="72px"
+              borderRadius="20px"
               _hover={{
                 transform: 'scale(1.1)',
                 boxShadow: '2xl',
                 transition: 'transform .5s linear'
               }}
-              // _hover={{
-              //   animation: `${puffIn} 1s linear forwards`
-              // }}
             >
               <Image src={WhatsappSVG} height="200px" />
             </Link>
