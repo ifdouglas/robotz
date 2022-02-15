@@ -1,12 +1,12 @@
-import NextDocument, { Html, Head, Main, NextScript } from 'next/document'
-import { ColorModeScript } from '@chakra-ui/react'
+import NextDocument, { Html, Head, Main, NextScript } from "next/document";
+import { ColorModeScript } from "@chakra-ui/react";
 
 export default class Document extends NextDocument {
   render() {
-    const title = 'Robotz'
-    const keywords = 'design de logo, progamação, aplicativos, website'
-    const description = 'Traga sua marca, produtos e serviços para o metaverso'
-    const url = 'https://www.robotz.com.br'
+    const title = "Robotz";
+    const keywords = "design de logo, progamação, aplicativos, website";
+    const description = "Traga sua marca, produtos e serviços para o metaverso";
+    const url = "https://www.robotz.com.br";
 
     return (
       <Html>
@@ -15,12 +15,16 @@ export default class Document extends NextDocument {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="shortcut icon" href="/favicon.ico" />
           <meta name="description" content={description}></meta>
-          <meta name="keywords" content={keywords}/>
+          <meta name="keywords" content={keywords} />
           <meta property="og:title" content={title} key="ogtitle" />
-          <meta property="og:description" content={description} key="ogdescription" />
-          <meta property="og:image" content='/robotz.png' key="ogimage" />
+          <meta
+            property="og:description"
+            content={description}
+            key="ogdescription"
+          />
+          <meta property="og:image" content="/robotz.png" key="ogimage" />
           <meta property="og:site_name" content={title} key="ogsitename" />
-          <meta property="og:url" content={url}/>
+          <meta property="og:url" content={url} />
         </Head>
         <body>
           <ColorModeScript />
@@ -28,6 +32,6 @@ export default class Document extends NextDocument {
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
