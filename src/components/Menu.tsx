@@ -1,8 +1,8 @@
-import { Flex, Heading } from '@chakra-ui/react'
-import { ReactElement } from 'react'
+import { Flex, Heading } from "@chakra-ui/react";
+import { ReactElement } from "react";
 
 interface MenuProps {
-  children: ReactElement | ReactElement[]
+  children: ReactElement | ReactElement[];
 }
 
 const Menu = ({ children }: MenuProps) => (
@@ -15,6 +15,6 @@ const Menu = ({ children }: MenuProps) => (
   >
     {children}
   </Flex>
-)
+);
 
-export default Menu
+export default Menu;

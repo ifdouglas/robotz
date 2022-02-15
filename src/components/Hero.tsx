@@ -1,4 +1,4 @@
-import { Flex, Heading } from '@chakra-ui/react'
+import { Flex, Heading } from "@chakra-ui/react";
 
 export const Hero = ({ title }: { title: string }) => (
   <Flex
@@ -12,8 +12,8 @@ export const Hero = ({ title }: { title: string }) => (
     <Heading fontSize="4rem" fontFamily="Righteous">{title}</Heading>
     <Heading fontSize="1.18rem">11 anos de experiência</Heading>
   </Flex>
-)
+);
 
 Hero.defaultProps = {
-  title: 'robotz',
-}
+  title: "robotz",
+};

@@ -1,4 +1,4 @@
-import { Flex, StackProps } from '@chakra-ui/react'
+import { Flex, StackProps } from "@chakra-ui/react";
 
 export const Main = (props: StackProps) => (
   <Flex
@@ -9,4 +9,4 @@ export const Main = (props: StackProps) => (
     justify="center"
     {...props}
   />
-)
+);
