@@ -3,11 +3,26 @@ import { ColorModeScript } from '@chakra-ui/react'
 
 export default class Document extends NextDocument {
   render() {
+    const title = 'Robotz'
+    const keywords = 'design de logo, progamação, aplicativos, website'
+    const description = 'Traga sua marca, produtos e serviços para o metaverso'
+    const url = 'https://www.robotz.com.br'
+
     return (
       <Html>
-        <Head />
+        <Head>
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="shortcut icon" href="/favicon.ico" />
+          <meta name="description" content={description}></meta>
+          <meta name="keywords" content={keywords}/>
+          <meta property="og:title" content={title} key="ogtitle" />
+          <meta property="og:description" content={description} key="ogdescription" />
+          <meta property="og:image" content='/robotz.png' key="ogimage" />
+          <meta property="og:site_name" content={title} key="ogsitename" />
+          <meta property="og:url" content={url}/>
+        </Head>
         <body>
-          {/* Make Color mode to persists when you refresh the page. */}
           <ColorModeScript />
           <Main />
           <NextScript />

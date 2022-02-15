@@ -17,6 +17,8 @@ import AppsSVG from 'robotz/resources/images/apps.svg'
 import SitesSVG from 'robotz/resources/images/sites.svg'
 import LogosSVG from 'robotz/resources/images/logos.svg'
 
+const CheckIcon = () => <ListIcon as={CheckCircleIcon} color="green.500" />
+
 const Index = () => (
   <Container>
     <Hero />
@@ -36,16 +38,13 @@ const Index = () => (
         </Badge>
         <List spacing={3} my={0}>
           <ListItem>
-            <ListIcon as={CheckCircleIcon} color="green.500" />
-            Design
+            <CheckIcon /> Design
           </ListItem>
           <ListItem>
-            <ListIcon as={CheckCircleIcon} color="green.500" />
-            Revisões Ilimitadas
+            <CheckIcon /> Revisões Ilimitadas
           </ListItem>
           <ListItem>
-            <ListIcon as={CheckCircleIcon} color="green.500" />
-            Template para Postagens e Stories no Instagram
+            <CheckIcon /> Template para Postagens e Stories no Instagram
           </ListItem>
         </List>
       </Card>
@@ -61,20 +60,16 @@ const Index = () => (
         </Badge>
         <List spacing={3} my={0}>
           <ListItem>
-            <ListIcon as={CheckCircleIcon} color="green.500" />
-            Design
+            <CheckIcon /> Design
           </ListItem>
           <ListItem>
-            <ListIcon as={CheckCircleIcon} color="green.500" />
-            Programação
+            <CheckIcon /> Programação
           </ListItem>
           <ListItem>
-            <ListIcon as={CheckCircleIcon} color="green.500" />
-            2 Anos de Hospedagem
+            <CheckIcon /> 2 Anos de Hospedagem
           </ListItem>
           <ListItem>
-            <ListIcon as={CheckCircleIcon} color="green.500" />
-            1 Ano de Garantia
+            <CheckIcon /> 1 Ano de Garantia
           </ListItem>
         </List>
       </Card>
@@ -90,24 +85,19 @@ const Index = () => (
         </Badge>
         <List spacing={3} my={0}>
           <ListItem>
-            <ListIcon as={CheckCircleIcon} color="green.500" />
-            Design
+            <CheckIcon /> Design
           </ListItem>
           <ListItem>
-            <ListIcon as={CheckCircleIcon} color="green.500" />
-            Programação
+            <CheckIcon /> Programação
           </ListItem>
           <ListItem>
-            <ListIcon as={CheckCircleIcon} color="green.500" />
-            Postagem na Apple Store
+            <CheckIcon /> Postagem na Apple Store
           </ListItem>
           <ListItem>
-            <ListIcon as={CheckCircleIcon} color="green.500" />
-            Postagem na Play Store
+            <CheckIcon /> Postagem na Play Store
           </ListItem>
           <ListItem>
-            <ListIcon as={CheckCircleIcon} color="green.500" />
-            1 Ano de Garantia
+            <CheckIcon /> 1 Ano de Garantia
           </ListItem>
         </List>
       </Card>
