@@ -38,6 +38,9 @@ const Index = () => (
             <CheckIcon /> Revisões Ilimitadas
           </ListItem>
           <ListItem>
+            <CheckIcon /> Avatar para Redes Sociais
+          </ListItem>
+          <ListItem>
             <CheckIcon /> Template para Postagens e Stories no Instagram
           </ListItem>
         </List>
@@ -98,8 +101,7 @@ const Index = () => (
     </Main>
     <Footer>
       <Text>
-        ©Copyright 2021 Robotz. Todos os direitos reservados. ❤️ Douglas
-        Fernandes
+        ©Copyright 2022 Robotz. Todos os direitos reservados.
       </Text>
     </Footer>
     {/* <CTA /> */}
