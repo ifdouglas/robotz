@@ -70,8 +70,8 @@ const Index = () => (
       <Card
         title="pacote aplicativo"
         description="criamos e postamos nas 2 lojas"
-        price="R$ 8.000"
-        priceMarket="R$ 9.100"
+        price="R$ 10.000"
+        priceMarket="R$ 11.350"
         image={AppsSVG}
       >
         <Badge rounded="full" mt={6} mb={2} fontSize="0.8em" colorScheme="gray">
