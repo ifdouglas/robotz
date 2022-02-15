@@ -9,8 +9,8 @@ export const Hero = ({ title }: { title: string }) => (
     flexDirection="column"
     bgClip="text"
   >
-    <Heading fontSize="4rem">{title}</Heading>
-    <Heading fontSize="1.15rem">11 anos de experiência</Heading>
+    <Heading fontSize="4rem" fontFamily="Righteous">{title}</Heading>
+    <Heading fontSize="1.18rem">11 anos de experiência</Heading>
   </Flex>
 )
 

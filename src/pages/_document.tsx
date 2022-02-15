@@ -14,6 +14,7 @@ export default class Document extends NextDocument {
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="shortcut icon" href="/favicon.ico" />
+          <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
           <meta name="description" content={description}></meta>
           <meta name="keywords" content={keywords}/>
           <meta property="og:title" content={title} key="ogtitle" />
