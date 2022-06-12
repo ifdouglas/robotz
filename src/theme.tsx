@@ -1,5 +1,5 @@
 import { extendTheme } from "@chakra-ui/react";
-import { createBreakpoints, mode } from "@chakra-ui/theme-tools";
+import { createBreakpoints, GlobalStyleProps, mode } from "@chakra-ui/theme-tools";
 
 const fonts = { mono: `'Menlo', monospace` };
 
@@ -27,7 +27,7 @@ const theme = extendTheme({
   fonts,
   breakpoints,
   styles: {
-    global: (props) => ({
+    global: (props: GlobalStyleProps) => ({
       body: {
         bg: mode('#281E5D', '#281E5D')(props)
       }
