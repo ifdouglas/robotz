@@ -10,7 +10,7 @@ export const Hero = ({ title }: { title: string }) => (
     bgClip="text"
   >
     <Heading fontSize="4rem" fontFamily="Righteous">{title}</Heading>
-    <Heading fontSize="1.18rem">11 anos de experiência</Heading>
+    <Heading fontSize="1.18rem">automação residencial</Heading>
   </Flex>
 );
 
